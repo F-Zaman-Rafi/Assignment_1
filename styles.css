@@ -1,15 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
+/* body {
+  margin-right: 200px;
+} */
 .container {
   width: 82%;
-  max-width: 1600px;
-  padding: 2% 140px;
+  max-width: 1320px;
+  padding: 5px 20px 5px 23px;
+  justify-content: center;
 }
 .banner {
   background-image: url(/Assignment_1/resources/a.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
   width: 1320px;
   height: 600px;
 }
@@ -17,22 +27,125 @@
   text-align: center;
   color: #dfdfdf;
   padding: 15%;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #000000 0%, rgba(7, 2, 17, 0) 100%);
+  /* border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-position: bottom 20%; */
 }
 .banner-text h2 {
   text-align: center;
   font-family: Merriweather;
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 5px;
 }
 .banner-text h1 {
   text-align: center;
   font-family: Merriweather;
-  font-size: 72px;
+  font-size: 65px;
   font-style: normal;
   font-weight: 900;
   line-height: 131.944%;
+}
+.offer {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 40px;
+}
+.offer p:nth-child(2) {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+.offer p:nth-child(3) {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 3%;
+}
+
+.midnight {
+  background-image: url(/Assignment_1/resources/v.png);
+  background-position: center center;
+
+  background-size: 83%;
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  display: flex;
+  padding-top: 5%;
+  padding-left: 2%;
+  /* justify-content: space-around; */
+  /* margin: 10%; */
+}
+.midnight-text {
+  padding: 8% 0 0 15%;
+  text-align: left;
+  /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
+}
+.midnight h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  width: 642px;
+}
+.midnight p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  width: 550px;
+}
+.image-mid {
+  width: 85%;
+}
+.midnight-img {
+  padding: 75px 15% 0 0;
+}
+.midnight-text button {
+  background-color: rgba(194, 22, 65, 0.452);
+  padding: 20px 20px;
+  border: none;
+  border-radius: 90px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: default;
+}
+button:hover {
+  background-color: #000000a1;
+  color: #ff0000;
+  cursor: pointer;
+  transition-delay: 2s ease;
+  transition: background-color 1s ease;
+}
+.join-butt {
+  padding: 5% 0 0 5%;
 }
