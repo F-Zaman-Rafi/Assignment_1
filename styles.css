@@ -318,8 +318,21 @@ button:hover {
   padding: 2% 20%;
 }
 .saleee {
-  padding-left: 50%;
-  padding-top: 8%;
+  /* padding-left: 50%; */
+  padding-top: 5%;
+  display: flex;
+  background-image: url(/Assignment_1/resources/n.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+
+  background-position: 5% 100%;
+  border: none;
+  border-radius: 16px 0px 16px 16px;
+  /* background: #f00; */
+
+  /* padding-top: 80%; */
+  flex-shrink: 0;
+  margin: 0 0 0 10%;
 }
 .saler {
   background-image: url(/Assignment_1/resources/m.png);
@@ -333,5 +346,15 @@ button:hover {
   padding-bottom: 0;
 }
 .floor {
-  padding: 30%;
+  width: 50%;
+}
+
+.f-image {
+  width: 95%;
+  padding: 28% 5% 0 15%;
+}
+.fifty {
+  width: 20%;
+
+  padding-bottom: 3%;
 }
