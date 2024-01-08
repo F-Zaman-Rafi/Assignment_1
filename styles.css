@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* body {
   margin-right: 200px;
 } */
@@ -14,6 +15,7 @@
   padding: 5px 20px 5px 23px;
   justify-content: center;
 }
+
 .banner {
   background-image: url(/Assignment_1/resources/a.png);
   background-size: 85%;
@@ -23,6 +25,7 @@
   width: 1320px;
   height: 600px;
 }
+
 .banner-text {
   text-align: center;
   color: #dfdfdf;
@@ -31,6 +34,7 @@
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   background-position: bottom 20%; */
 }
+
 .banner-text h2 {
   text-align: center;
   font-family: Merriweather;
@@ -40,6 +44,7 @@
   line-height: normal;
   padding-bottom: 5px;
 }
+
 .banner-text h1 {
   text-align: center;
   font-family: Merriweather;
@@ -48,6 +53,7 @@
   font-weight: 900;
   line-height: 131.944%;
 }
+
 .offer {
   color: #f00;
   text-align: center;
@@ -58,6 +64,7 @@
   line-height: normal;
   padding-top: 40px;
 }
+
 .offer p:nth-child(2) {
   color: #f00;
   text-align: center;
@@ -69,6 +76,7 @@
   padding-top: 5%;
   padding-bottom: 1%;
 }
+
 .offer p:nth-child(3) {
   color: #070211;
   text-align: center;
@@ -95,36 +103,44 @@
   /* justify-content: space-around; */
   /* margin: 10%; */
 }
+
 .midnight-text {
   padding: 8% 0 0 15%;
   text-align: left;
   /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
 }
+
 .midnight h1 {
   color: #fff;
   font-family: Merriweather;
   font-size: 50px;
   font-style: normal;
   font-weight: 900;
-  line-height: 88px; /* 137.5% */
+  line-height: 88px;
+  /* 137.5% */
   letter-spacing: 7.04px;
   width: 642px;
 }
+
 .midnight p {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 25px;
+  /* 166.667% */
   width: 550px;
 }
+
 .image-mid {
   width: 85%;
 }
+
 .midnight-img {
   padding: 75px 15% 0 0;
 }
+
 .midnight-text button {
   background-color: rgba(194, 22, 65, 0.452);
   padding: 20px 20px;
@@ -139,16 +155,19 @@
   text-transform: uppercase;
   cursor: default;
 }
-button:hover {
+
+.midnight-text button:hover {
   background-color: #000000a1;
   color: #ff0000;
   cursor: pointer;
   transition-delay: 2s ease;
   transition: background-color 1s ease;
 }
+
 .join-butt {
   padding: 5% 0 0 5%;
 }
+
 .event {
   color: #070211;
   font-family: Inter;
@@ -176,6 +195,7 @@ button:hover {
 .event .important {
   color: #f00;
 }
+
 .join-button {
   display: inline-flex;
   padding: 16px 32px;
@@ -194,6 +214,7 @@ button:hover {
   line-height: normal;
   text-transform: uppercase;
 }
+
 .event-button {
   /* justify-content: center; */
   padding: 5% 0 0 0;
@@ -207,9 +228,11 @@ button:hover {
   margin-left: 13%;
   padding-top: 5%;
 }
+
 .new-offer-head * {
   padding-bottom: 2%;
 }
+
 .new-offer-head h2 {
   color: #f00;
   text-align: left;
@@ -220,6 +243,7 @@ button:hover {
   line-height: normal;
   padding-top: 15%;
 }
+
 .new-offer-head h1 {
   color: #070211;
   font-family: Merriweather;
@@ -229,13 +253,15 @@ button:hover {
   line-height: normal;
   text-transform: capitalize;
 }
+
 .new-offer-head p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
+  /* 160% */
   width: 300px;
 }
 
@@ -245,6 +271,7 @@ button:hover {
   flex-shrink: 0;
   padding-left: 30px;
 }
+
 .x {
   width: 80%;
   border-radius: 463px;
@@ -266,6 +293,7 @@ button:hover {
   padding-bottom: 5%;
   padding-top: 15%;
 }
+
 .new-offer-text p {
   width: 276px;
   color: rgba(7, 2, 17, 0.6);
@@ -276,11 +304,13 @@ button:hover {
   line-height: 28px;
   padding-bottom: 10%;
 }
+
 .holiday-text {
   text-align: center;
   padding-top: 10%;
   /* justify-content: center; */
 }
+
 .holiday-text h2 {
   color: #070211;
   font-family: Inter;
@@ -289,6 +319,7 @@ button:hover {
   font-weight: 500;
   line-height: normal;
 }
+
 .holiday-text h1 {
   color: #070211;
   font-family: Merriweather;
@@ -297,6 +328,7 @@ button:hover {
   font-weight: 900;
   line-height: normal;
 }
+
 .holiday-text .important {
   color: #f00;
   text-align: center;
@@ -306,6 +338,7 @@ button:hover {
   font-weight: 900;
   line-height: normal;
 }
+
 .holiday-text .para {
   /* width: 968px; */
   color: rgba(7, 2, 17, 0.6);
@@ -313,27 +346,26 @@ button:hover {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
+  /* 160% */
   text-align: center;
   padding: 2% 20%;
 }
+
 .saleee {
-  /* padding-left: 50%; */
   padding-top: 5%;
   display: flex;
   background-image: url(/Assignment_1/resources/n.png);
-  /* background-size: cover; */
   background-repeat: no-repeat;
 
   background-position: 5% 100%;
   border: none;
   border-radius: 16px 0px 16px 16px;
-  /* background: #f00; */
 
-  /* padding-top: 80%; */
   flex-shrink: 0;
   margin: 0 0 0 10%;
 }
+
 .saler {
   background-image: url(/Assignment_1/resources/m.png);
   background-repeat: no-repeat;
@@ -345,6 +377,7 @@ button:hover {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 .floor {
   width: 50%;
 }
@@ -353,8 +386,133 @@ button:hover {
   width: 95%;
   padding: 28% 5% 0 15%;
 }
+
 .fifty {
   width: 20%;
-
   padding-bottom: 3%;
+}
+.gift * {
+  padding-bottom: 1%;
+}
+.gift-text {
+  text-align: left;
+  margin: 23% 10% 0 10%;
+}
+.gift-text h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.gift-text h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.gift-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 896px;
+}
+.pic {
+  width: 31%;
+  flex-shrink: 0;
+  padding: 11px;
+  /* position: relative; */
+}
+.gift-pic1 {
+  margin: 2% 9.5% 0 9.5%;
+}
+
+.mail {
+  color: #070211;
+  font-family: Inter;
+  padding-top: 8%;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 98%;
+  height: 482px;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-top: 10%;
+}
+.mail-text * {
+  padding-bottom: 3%;
+}
+.mail-text h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.mail-text p {
+  width: 100%;
+  /* margin: 0 15% 0 25%; */
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.subs-button #email {
+  width: 70%;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  border: none;
+  align-content: start;
+  padding: 0 15.6% 0 20px;
+
+  /* position: absolute; */
+}
+.subs-button {
+  width: 70%;
+  border-radius: 50px 50px 50px 50px;
+  background: #f00;
+  border: none;
+  padding: 0;
+  margin-left: 20px;
+}
+.red {
+  padding: 0 20px;
+  color: #030303;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.mail-subs button:hover {
+  background-color: #3cff00;
+  color: #000000;
+  cursor: pointer;
+  transition-delay: 2s ease;
+  transition: background-color 1s ease;
 }
