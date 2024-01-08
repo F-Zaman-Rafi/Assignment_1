@@ -276,3 +276,11 @@ button:hover {
   line-height: 28px;
   padding-bottom: 10%;
 }
+.holiday-text h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
