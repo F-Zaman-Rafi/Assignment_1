@@ -12,7 +12,7 @@
 .container {
   width: 82%;
   max-width: 1320px;
-  padding: 5px 20px 5px 23px;
+  padding: 0px 20px 0px 23px;
   justify-content: center;
 }
 
@@ -20,7 +20,7 @@
   background-image: url(/Assignment_1/resources/a.png);
   background-size: 85%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   /* background-attachment: fixed; */
   width: 1320px;
   height: 600px;
@@ -28,11 +28,14 @@
 
 .banner-text {
   text-align: center;
-  color: #ffffff;
-  padding: 15%;
-  /* border-radius: 16px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  background-position: bottom 20%; */
+  color: #fff;
+  padding: 12% 10%;
+}
+.banner-back {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 90%);
+  background-position: bottom 20%;
+  border-radius: 16px;
+  margin: 5% 7.5% 0 7.5%;
 }
 
 .banner-text h2 {
@@ -107,8 +110,14 @@
 .midnight-text {
   padding: 8% 0 0 15%;
   text-align: left;
-  color: #2abdbd;
+  color: #49e7e7;
   /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
+}
+.midnight-back {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-position: bottom 0%;
+  border-radius: 16px;
+  margin: 1% 0 6% 6.5%;
 }
 
 .midnight h1 {
@@ -141,8 +150,8 @@
 }
 
 .midnight-text button {
-  background-color: rgba(194, 22, 65, 0.452);
-  padding: 20px 20px;
+  background-color: rgb(255, 0, 0);
+  padding: 22px 22px;
   border: none;
   border-radius: 90px;
   text-align: center;
@@ -211,6 +220,8 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  cursor: default;
+  cursor: pointer;
 }
 
 .event-button {
@@ -513,8 +524,8 @@
   background-color: #3cff00;
   color: #000000;
   cursor: pointer;
-  transition-delay: 2s ease;
-  transition: background-color 1s ease;
+  transition-delay: 4s ease;
+  transition: background-color 2s ease;
 }
 .subs-button input::placeholder {
   color: rgba(7, 2, 17, 0.3);
